@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background:white;
+}
+
+header{
+    width: 100%;
+    height:80px;
+    background:grey ;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding:0 100px;
+
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: ghostwhite;
+}
+.hamburger{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+color: beige;
+font-size: 20px;
+padding:10px 25px;
+border-radius:50px;
+transition: 0.2s;
+margin:0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color: #11101b;
+    background:white ;
+    
+}
+
+.nav-bar ul li a.active{
+    color:grey;
+    background: white;
+
+}
+
+
+
+.o{
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+}
+
+.y{
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+}
+
+.h{
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+}
+
+.i{
+    text-align: center;
+    padding: 10px;
+    color: cadetblue;
+}
+.j{
+    text-align: center;
+
+    color: cadetblue;
+} 
+.l{
+    text-align: center;
+}
+
+.u{
+    margin-top: 50px;
+    color: cadetblue;
+}
+
+.x{
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+.ll , .te{ 
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.text{
+    text-align: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+}
+
+.sd{
+    text-align: center;
+}
+
+.bole{
+    text-align: center;
+}
+
+.mane{
+    text-align: center;
+}
+
+.pt{
+    text-align: center;
+}
+
+.oce{
+/* padding-top: 100px; */
+width: 550px;
+height: auto;
+padding-left: 90px;
+padding-bottom: 60px;
+}
+
+.diela{
+    text-align: center;
+    color: cadetblue;
+}
+
+.cont{
+    display: flex;
+}
+
+.uk{
+    text-align: center;
+    color: cadetblue;
+}
+
+.f{
+    text-align: center;
+    color: black;
+}
+
+.oo{
+    background-color: darkgrey;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.ao{
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+
+.bola{
+    text-align: center;
+    color: cadetblue;
+    margin-top: 10px;
+}
+
+.yak{
+    text-align: center;
+    color: cadetblue;
+    margin-top: 10px;
+}
+
+.idk{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hj{
+    width: 1000px;
+    height: auto;
+    padding-left: 500px;
+    margin-top: 20px;
+}
+
+.yupii{
+    text-align: center;
+}
+
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px;
+}
